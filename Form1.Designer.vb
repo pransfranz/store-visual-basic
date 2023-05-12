@@ -129,7 +129,7 @@ Partial Class Form1
         '
         Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Yelo", "Alfonso", "Coke", "Sting"})
+        Me.ComboBox1.Items.AddRange(New Object() {"Item1", "Item2", "Item3", "Item4"})
         Me.ComboBox1.Location = New System.Drawing.Point(122, 39)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(170, 27)

@@ -1,13 +1,13 @@
 ﻿
 Public Class Form1
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-        If ComboBox1.Text = "Yelo" Then
+        If ComboBox1.Text = "Item1" Then
             TextBox1.Text = "5"
-        ElseIf ComboBox1.Text = "Alfonso" Then
+        ElseIf ComboBox1.Text = "Item2" Then
             TextBox1.Text = "290"
-        ElseIf ComboBox1.Text = "Sting" Then
+        ElseIf ComboBox1.Text = "Item3" Then
             TextBox1.Text = "25"
-        ElseIf ComboBox1.Text = "Coke" Then
+        ElseIf ComboBox1.Text = "Item4" Then
             TextBox1.Text = "70"
         End If
 
@@ -15,10 +15,6 @@ Public Class Form1
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
         TextBox3.Text = Val(TextBox1.Text) * Val(TextBox2.Text)
-    End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs)
-        End
     End Sub
 
     Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.TextChanged
@@ -57,4 +53,5 @@ Public Class Form1
         Me.Dispose()
         Form2.Show()
     End Sub
+
 End Class
